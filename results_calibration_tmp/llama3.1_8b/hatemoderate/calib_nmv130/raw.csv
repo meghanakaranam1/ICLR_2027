@@ -1,0 +1,13 @@
+input_id,model,dataset,condition,final_label,ground_truth,correct,escalated_to_human,self_refused,prompt_injected,injection_detected,parse_failed,category,nodes_used,node_labels,escalation_count,total_pulls,total_tokens_input,total_tokens_output,cost_usd,arm_elimination_trace
+2509,llama3.1:8b,hatemoderate,calib_nmv130,not_hate,hate,0,0,0,0,0,0,subhumanity,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,260,488280,938,0.0,
+441,llama3.1:8b,hatemoderate,calib_nmv130,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,130,242190,390,0.0,
+6117,llama3.1:8b,hatemoderate,calib_nmv130,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,130,245570,390,0.0,
+5162,llama3.1:8b,hatemoderate,calib_nmv130,hate,hate,1,0,0,0,0,0,attacking education,['Screener'],['hate'],0,130,243490,390,0.0,
+4820,llama3.1:8b,hatemoderate,calib_nmv130,escalate,hate,,1,0,0,0,0,attacking intellectual capability,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,390,890110,1312,0.0,
+3335,llama3.1:8b,hatemoderate,calib_nmv130,not_hate,hate,0,0,0,0,0,0,deny existence,['Screener'],['not_hate'],0,130,245180,520,0.0,
+4866,llama3.1:8b,hatemoderate,calib_nmv130,hate,not_hate,0,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,130,241930,390,0.0,
+29498,llama3.1:8b,hatemoderate,calib_nmv130,not_hate,not_hate,1,0,0,0,0,0,political exclusion,['Screener'],['not_hate'],0,130,246480,476,0.0,
+24880,llama3.1:8b,hatemoderate,calib_nmv130,not_hate,not_hate,1,0,0,0,0,0,sexual predator,['Screener'],['not_hate'],0,130,245960,520,0.0,
+3963,llama3.1:8b,hatemoderate,calib_nmv130,not_hate,not_hate,1,0,0,0,0,0,deny existence,['Screener'],['not_hate'],0,130,242710,491,0.0,
+27049,llama3.1:8b,hatemoderate,calib_nmv130,hate,not_hate,0,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,130,242580,390,0.0,
+20428,llama3.1:8b,hatemoderate,calib_nmv130,not_hate,not_hate,1,0,0,0,0,0,less than adequate,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,260,486980,903,0.0,

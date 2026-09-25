@@ -1,0 +1,7 @@
+timestamp,input_id,model,dataset,condition,node,raw_response,error
+2026-09-21T07:14:48.062361+00:00,7219,qwen2.5:7b,hatemoderate,graph_mv,Analyst,contempt_self_admission_intolerance,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='contempt_self_admission_intolerance'"
+2026-09-21T07:20:24.331224+00:00,7219,qwen2.5:7b,hatemoderate,graph_mv,Analyst,contempt_self_admission_intolerance,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='contempt_self_admission_intolerance'"
+2026-09-21T07:25:59.179289+00:00,7219,qwen2.5:7b,hatemoderate,graph_mv,Screener,contempt_self_admission_intolerance,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='contempt_self_admission_intolerance'"
+2026-09-21T07:27:41.014952+00:00,7259,qwen2.5:7b,hatemoderate,graph_mv,Screener,contempt,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='contempt'"
+2026-09-21T07:31:34.021497+00:00,7259,qwen2.5:7b,hatemoderate,graph_mv,Screener,contempt_despise_hate,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='contempt_despise_hate'"
+2026-09-21T07:35:24.346753+00:00,7259,qwen2.5:7b,hatemoderate,graph_mv,Screener,contempt,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='contempt'"

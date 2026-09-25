@@ -1,0 +1,1 @@
+input_id,model,dataset,condition,final_label,ground_truth,correct,escalated_to_human,self_refused,prompt_injected,category,nodes_used,node_labels,escalation_count,total_pulls,total_tokens_input,total_tokens_output,cost_usd,arm_elimination_trace

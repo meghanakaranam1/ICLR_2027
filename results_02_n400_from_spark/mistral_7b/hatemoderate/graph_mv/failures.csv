@@ -1,0 +1,4 @@
+timestamp,input_id,model,dataset,condition,node,raw_response,error
+2026-09-19T23:41:25.029209+00:00,2509,mistral:7b,hatemoderate,graph_mv,Adjudicator,"Based on the policy provided, the text does not","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='Based on the policy provided, the text does not'"
+2026-09-19T23:42:25.034964+00:00,17387,mistral:7b,hatemoderate,graph_mv,Adjudicator,"Based on the policy guidelines provided, the text can","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='Based on the policy guidelines provided, the text can'"
+2026-09-19T23:42:32.761764+00:00,29461,mistral:7b,hatemoderate,graph_mv,Adjudicator,"Based on the provided policy, the text ""Pol","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='Based on the provided policy, the text ""Pol'"

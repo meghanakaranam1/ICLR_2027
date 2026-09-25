@@ -1,0 +1,401 @@
+input_id,model,dataset,condition,final_label,ground_truth,correct,escalated_to_human,self_refused,prompt_injected,injection_detected,parse_failed,category,nodes_used,node_labels,escalation_count,total_pulls,total_tokens_input,total_tokens_output,cost_usd,arm_elimination_trace,final_confidence,leading_candidate,leading_estimate,leading_wrong,arm_estimates_json
+124,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9475,15,0.0,,1.0,hate,1.0,0,
+441,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9460,15,0.0,,1.0,hate,1.0,0,
+454,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9510,15,0.0,,1.0,hate,1.0,0,
+481,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9480,15,0.0,,1.0,hate,1.0,0,
+497,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9505,15,0.0,,0.8,hate,0.8,0,
+719,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,insects,['Screener'],['hate'],0,5,9715,17,0.0,,0.4,hate,0.4,0,
+1851,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,feces,['Screener'],['hate'],0,5,9445,15,0.0,,1.0,hate,1.0,0,
+2116,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,sexual predator,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,30580,45,0.0,,0.8,hate,0.8,0,
+2245,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9470,15,0.0,,1.0,hate,1.0,0,
+2256,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9485,15,0.0,,1.0,hate,1.0,0,
+2281,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9480,15,0.0,,1.0,hate,1.0,0,
+2419,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,subhumanity,['Screener'],['hate'],0,5,9680,15,0.0,,0.8,hate,0.8,0,
+2421,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,subhumanity,['Screener'],['hate'],0,5,9695,15,0.0,,1.0,hate,1.0,0,
+2509,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,subhumanity,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29535,45,0.0,,,,,,
+2777,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,criminal,['Screener'],['hate'],0,5,9725,15,0.0,,1.0,hate,1.0,0,
+3335,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,deny existence,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29730,45,0.0,,,,,,
+3721,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9500,15,0.0,,1.0,hate,1.0,0,
+3757,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9500,15,0.0,,1.0,hate,1.0,0,
+4140,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9485,15,0.0,,1.0,hate,1.0,0,
+4193,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9495,15,0.0,,1.0,hate,1.0,0,
+4618,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9450,15,0.0,,1.0,hate,1.0,0,
+4663,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,attacking appearance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29625,45,0.0,,,,,,
+4683,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9485,15,0.0,,0.8,hate,0.8,0,
+4820,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29575,45,0.0,,0.8,hate,0.8,0,
+4924,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9495,15,0.0,,1.0,hate,1.0,0,
+5162,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking education,['Screener'],['hate'],0,5,9510,15,0.0,,1.0,hate,1.0,0,
+6012,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,0,
+6117,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,0,
+6145,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,attacking derogatory term,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29720,45,0.0,,,,,,
+6147,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9625,15,0.0,,1.0,hate,1.0,0,
+6443,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,less than adequate,['Screener'],['hate'],0,5,10325,15,0.0,,1.0,hate,1.0,0,
+7111,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29405,45,0.0,,,,,,
+7215,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,contempt self admission intolerance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29765,45,0.0,,,,,,
+7252,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,contempt self admission intolerance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29835,45,0.0,,,,,,
+7408,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,contempt self admission intolerance,['Screener'],['not_hate'],0,5,9585,20,0.0,,1.0,not_hate,1.0,1,
+7522,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9505,15,0.0,,1.0,hate,1.0,0,
+8179,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt despise dislike,['Screener'],['hate'],0,5,9490,15,0.0,,0.8,hate,0.8,0,
+8197,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt despise dislike,['Screener'],['hate'],0,5,9505,15,0.0,,1.0,hate,1.0,0,
+9109,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9535,15,0.0,,0.6,hate,0.6,0,
+9132,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9495,15,0.0,,1.0,hate,1.0,0,
+9143,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9520,15,0.0,,1.0,hate,1.0,0,
+9723,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9540,15,0.0,,1.0,hate,1.0,0,
+9938,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,segregation,['Screener'],['hate'],0,5,9545,15,0.0,,0.8,hate,0.8,0,
+10941,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29510,45,0.0,,,,,,
+11735,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9505,15,0.0,,1.0,hate,1.0,0,
+11819,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9455,15,0.0,,1.0,hate,1.0,0,
+11822,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9465,15,0.0,,1.0,hate,1.0,0,
+12023,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,spread virus,['Screener'],['hate'],0,5,9715,15,0.0,,1.0,hate,1.0,0,
+12105,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,spread virus,['Screener'],['hate'],0,5,9485,15,0.0,,1.0,hate,1.0,0,
+16239,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disease,['Screener'],['hate'],0,5,9460,15,0.0,,1.0,hate,1.0,0,
+1029,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9470,15,0.0,,0.8,hate,0.8,1,
+2039,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,certain objects,['Screener'],['not_hate'],0,5,9535,20,0.0,,1.0,not_hate,1.0,0,
+2935,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9475,15,0.0,,1.0,hate,1.0,1,
+2977,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9505,15,0.0,,1.0,hate,1.0,1,
+2990,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9480,15,0.0,,1.0,hate,1.0,1,
+3000,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9650,15,0.0,,0.6,hate,0.6,1,
+3864,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,deny existence,['Screener'],['not_hate'],0,5,9475,20,0.0,,1.0,not_hate,1.0,0,
+4859,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,10315,15,0.0,,1.0,hate,1.0,1,
+7000,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,criminal,['Screener'],['hate'],0,5,9535,15,0.0,,1.0,hate,1.0,1,
+7003,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,criminal,['Screener'],['not_hate'],0,5,9460,20,0.0,,1.0,not_hate,1.0,0,
+7041,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,criminal,['Screener'],['hate'],0,5,9540,15,0.0,,1.0,hate,1.0,1,
+8339,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9465,15,0.0,,1.0,hate,1.0,1,
+8346,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9450,15,0.0,,0.8,hate,0.8,1,
+8360,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9450,15,0.0,,1.0,hate,1.0,1,
+8399,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9455,15,0.0,,0.8,hate,0.8,1,
+9324,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking education,['Screener'],['not_hate'],0,5,9710,19,0.0,,0.8,not_hate,0.8,0,
+9332,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking education,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19010,34,0.0,,0.6,not_hate,0.6,0,
+9364,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking education,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,30365,45,0.0,,0.6,hate,0.6,1,
+10343,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,deviating norm,['Screener'],['hate'],0,5,9470,15,0.0,,1.0,hate,1.0,1,
+11484,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9490,15,0.0,,1.0,hate,1.0,1,
+11490,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9490,15,0.0,,0.8,hate,0.8,1,
+11507,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9485,15,0.0,,0.6,hate,0.6,1,
+11552,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9510,15,0.0,,0.8,hate,0.8,1,
+12443,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9510,15,0.0,,0.6,hate,0.6,1,
+13502,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,segregation,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30320,45,0.0,,,,,,
+13516,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,segregation,['Screener'],['hate'],0,5,10205,15,0.0,,1.0,hate,1.0,1,
+14462,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,better worse than,['Screener'],['not_hate'],0,5,9500,20,0.0,,1.0,not_hate,1.0,0,
+16455,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,subhumanity,['Screener'],['not_hate'],0,5,9595,20,0.0,,1.0,not_hate,1.0,0,
+17387,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking character trait,['Screener'],['not_hate'],0,5,9525,20,0.0,,1.0,not_hate,1.0,0,
+17467,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking character trait,['Screener'],['hate'],0,5,9480,15,0.0,,1.0,hate,1.0,1,
+18388,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,social exclusion,"['Screener', 'Analyst']","['escalate', 'hate']",1,10,19310,30,0.0,,0.6,hate,0.6,1,
+18393,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,social exclusion,['Screener'],['hate'],0,5,9505,15,0.0,,1.0,hate,1.0,1,
+19411,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9495,15,0.0,,1.0,hate,1.0,1,
+22303,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise dislike,['Screener'],['hate'],0,5,9460,15,0.0,,1.0,hate,1.0,1,
+22349,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,contempt despise dislike,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19070,35,0.0,,1.0,not_hate,1.0,0,
+23916,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking mental health,['Screener'],['not_hate'],0,5,9485,20,0.0,,1.0,not_hate,1.0,0,
+25877,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,insects,['Screener'],['not_hate'],0,5,9540,20,0.0,,1.0,not_hate,1.0,0,
+25978,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse genitalia,['Screener'],['hate'],0,5,9465,15,0.0,,1.0,hate,1.0,1,
+28024,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt self admission intolerance,['Screener'],['hate'],0,5,9505,15,0.0,,1.0,hate,1.0,1,
+29118,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9460,15,0.0,,1.0,hate,1.0,1,
+29121,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9500,15,0.0,,1.0,hate,1.0,1,
+29140,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9460,15,0.0,,1.0,hate,1.0,1,
+29179,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9480,15,0.0,,1.0,hate,1.0,1,
+29347,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29640,45,0.0,,,,,,
+29461,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,political exclusion,['Screener'],['hate'],0,5,9455,15,0.0,,0.8,hate,0.8,1,
+29536,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,political exclusion,['Screener'],['not_hate'],0,5,9560,18,0.0,,0.6,not_hate,0.6,0,
+29541,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,political exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29635,45,0.0,,,,,,
+29599,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9490,15,0.0,,1.0,hate,1.0,1,
+29680,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9460,15,0.0,,1.0,hate,1.0,1,
+29697,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9495,15,0.0,,1.0,hate,1.0,1,
+5484,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking mental health,['Screener'],['hate'],0,5,9715,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3640,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7509,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+1007,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9595,15,0.0,,0.8,hate,0.8,0,"{""hate"": 0.8, ""escalate"": 0.2}"
+7099,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29705,45,0.0,,,hate,0.4,0,"{""escalate"": 0.6, ""hate"": 0.4}"
+6663,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,deviating norm,['Screener'],['hate'],0,5,9710,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10855,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29760,45,0.0,,,,,,"{""escalate"": 1.0}"
+8508,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9695,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6605,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,deviating norm,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29815,45,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3976,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10540,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,political exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29990,44,0.0,,0.8,hate,0.8,0,"{""hate"": 0.8, ""escalate"": 0.2}"
+10331,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,explicit exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29970,45,0.0,,,hate,0.4,0,"{""hate"": 0.4, ""escalate"": 0.6}"
+3988,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6986,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,better worse than,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3990,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+11117,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,social exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29700,45,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+10802,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29830,45,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6350,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,less than adequate,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+425,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+1721,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,dehumanization animal,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7529,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+5764,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking character trait,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9389,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse genitalia,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10288,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,explicit exclusion,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+11443,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,change sexual,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4637,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9810,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4372,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,attacking hygiene,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'not_hate']",2,15,30105,48,0.0,,0.6,not_hate,0.6,1,"{""not_hate"": 0.6, ""escalate"": 0.4}"
+4336,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9915,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,segregation,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30225,45,0.0,,,,,,"{""escalate"": 1.0}"
+2461,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,subhumanity,['Screener'],['hate'],0,5,9920,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3377,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,deny existence,['Screener'],['hate'],0,5,9600,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+452,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9610,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6999,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,better worse than,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+12005,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,spread virus,['Screener'],['hate'],0,5,9640,15,0.0,,0.6,hate,0.6,0,"{""hate"": 0.6, ""escalate"": 0.4}"
+8454,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+11757,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,attack concept associated protected characteristics,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,31940,45,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+2286,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4011,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7219,qwen2.5:7b,hatemoderate,graph_mv,parse_failed,hate,,0,0,0,0,1,contempt self admission intolerance,['Screener'],['parse_failed'],0,0,0,0,0.0,,,,,,
+16076,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,segregation,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29765,45,0.0,,,hate,0.4,0,"{""escalate"": 0.6, ""hate"": 0.4}"
+9136,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9820,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+442,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+761,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,insects,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+12080,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,spread virus,['Screener'],['hate'],0,5,9815,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+8163,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,contempt despise dislike,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29850,45,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+11200,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,social exclusion,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4291,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+2792,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,criminal,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4523,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+460,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9939,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,segregation,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29970,45,0.0,,,,,,"{""escalate"": 1.0}"
+4224,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+906,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10985,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29910,45,0.0,,,,,,"{""escalate"": 1.0}"
+4525,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9615,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6936,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29715,45,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+11836,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6384,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,less than adequate,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4046,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4170,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4228,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9954,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,segregation,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30125,45,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+4857,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+5459,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking mental health,['Screener'],['hate'],0,5,9685,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3793,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9620,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+742,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,insects,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10380,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,explicit exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29700,45,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+3782,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,harmful stereotype,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19190,33,0.0,,0.6,not_hate,0.6,1,"{""not_hate"": 0.6, ""escalate"": 0.4}"
+4866,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6438,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,less than adequate,['Screener'],['hate'],0,5,9705,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+2471,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,subhumanity,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30690,45,0.0,,,,,,"{""escalate"": 1.0}"
+11843,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10046,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,segregation,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29835,45,0.0,,,hate,0.4,0,"{""escalate"": 0.6, ""hate"": 0.4}"
+5790,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,attacking character trait,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29690,46,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+8174,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,contempt despise dislike,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29850,47,0.0,,,,,,"{""escalate"": 1.0}"
+14735,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking hygiene,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29700,45,0.0,,0.6,hate,0.6,0,"{""hate"": 0.6, ""escalate"": 0.4}"
+8503,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+12155,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,spread virus,['Screener'],['hate'],0,5,9675,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+8533,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9670,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7328,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,contempt self admission intolerance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30120,45,0.0,,,,,,"{""escalate"": 1.0}"
+10302,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,explicit exclusion,['Screener'],['hate'],0,5,9750,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+16085,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,segregation,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+5457,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking mental health,['Screener'],['hate'],0,5,9785,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4824,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29745,46,0.0,,0.6,hate,0.6,0,"{""not_hate"": 0.2, ""hate"": 0.6, ""escalate"": 0.2}"
+3784,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6633,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,deviating norm,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7229,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,contempt self admission intolerance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30015,45,0.0,,,,,,"{""escalate"": 1.0}"
+8796,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,disgust vomit,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30120,46,0.0,,,hate,0.4,0,"{""escalate"": 0.6, ""hate"": 0.4}"
+4156,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10933,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29790,45,0.0,,,,,,"{""escalate"": 1.0}"
+313,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,violent speech,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30040,45,0.0,,,,,,"{""escalate"": 1.0}"
+10861,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,economic exclusion,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7129,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29735,45,0.0,,,hate,0.4,0,"{""escalate"": 0.6, ""hate"": 0.4}"
+1770,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,dehumanization animal,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+5507,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking mental health,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9617,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9620,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7518,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10533,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,political exclusion,['Screener'],['not_hate'],0,5,9580,20,0.0,,1.0,not_hate,1.0,1,"{""not_hate"": 1.0}"
+11492,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,change sexual,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19370,35,0.0,,1.0,not_hate,1.0,1,"{""not_hate"": 1.0}"
+3797,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9605,15,0.0,,0.6,hate,0.6,0,"{""hate"": 0.6, ""escalate"": 0.4}"
+69,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9659,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,curse profane,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19290,34,0.0,,0.6,not_hate,0.6,1,"{""escalate"": 0.4, ""not_hate"": 0.6}"
+11122,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,social exclusion,['Screener'],['hate'],0,5,9565,15,0.0,,0.6,hate,0.6,0,"{""escalate"": 0.4, ""hate"": 0.6}"
+9188,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9610,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+1005,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+16266,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,certain objects,['Screener'],['hate'],0,5,9620,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4127,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+2270,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+11123,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,social exclusion,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+1855,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,feces,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+5165,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,attacking education,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19270,33,0.0,,0.6,not_hate,0.6,1,"{""not_hate"": 0.6, ""escalate"": 0.4}"
+11821,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7259,qwen2.5:7b,hatemoderate,graph_mv,parse_failed,hate,,0,0,0,0,1,contempt self admission intolerance,['Screener'],['parse_failed'],0,0,0,0,0.0,,,,,,
+9689,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9615,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+10093,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,segregation,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+8411,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9660,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+9476,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse genitalia,['Screener'],['hate'],0,5,9990,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+5157,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking education,['Screener'],['hate'],0,5,9625,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7083,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29705,45,0.0,,0.8,hate,0.8,0,"{""escalate"": 0.2, ""hate"": 0.8}"
+5776,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking character trait,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6050,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9905,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6126,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9755,15,0.0,,0.8,hate,0.8,0,"{""hate"": 0.8, ""escalate"": 0.2}"
+1598,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,dehumanization animal,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29785,47,0.0,,,,,,"{""escalate"": 1.0}"
+7953,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt despise hate,['Screener'],['hate'],0,5,9650,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3751,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+3704,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9615,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+627,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,insects,['Screener'],['hate'],0,5,10190,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+11450,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,change sexual,['Screener'],['hate'],0,5,9580,15,0.0,,0.6,hate,0.6,0,"{""escalate"": 0.4, ""hate"": 0.6}"
+4662,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking appearance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,30345,45,0.0,,0.6,hate,0.6,0,"{""hate"": 0.6, ""escalate"": 0.4}"
+4021,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+1546,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,dehumanization animal,['Screener'],['hate'],0,5,9745,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6483,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,less than adequate,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,30650,45,0.0,,0.8,hate,0.8,0,"{""escalate"": 0.2, ""hate"": 0.8}"
+6658,qwen2.5:7b,hatemoderate,graph_mv,not_hate,hate,0,0,0,0,0,0,deviating norm,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19560,35,0.0,,1.0,not_hate,1.0,1,"{""not_hate"": 1.0}"
+6493,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,less than adequate,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7234,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt self admission intolerance,['Screener'],['hate'],0,5,9675,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4965,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9660,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6125,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,"['Screener', 'Analyst']","['escalate', 'hate']",1,10,19940,30,0.0,,0.6,hate,0.6,0,"{""escalate"": 0.4, ""hate"": 0.6}"
+6976,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29735,45,0.0,,0.6,hate,0.6,0,"{""hate"": 0.6, ""escalate"": 0.4}"
+10573,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,political exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29715,45,0.0,,,,,,"{""escalate"": 1.0}"
+10274,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,explicit exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29820,45,0.0,,,,,,"{""escalate"": 1.0}"
+6631,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,deviating norm,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29655,45,0.0,,,hate,0.2,0,"{""hate"": 0.2, ""escalate"": 0.8}"
+8189,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,contempt despise dislike,['Screener'],['hate'],0,5,9580,15,0.0,,0.6,hate,0.6,0,"{""hate"": 0.6, ""escalate"": 0.4}"
+5464,qwen2.5:7b,hatemoderate,graph_mv,escalate,hate,,1,0,0,0,0,attacking mental health,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29890,47,0.0,,,hate,0.2,0,"{""escalate"": 0.8, ""hate"": 0.2}"
+9788,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9640,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+2529,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,subhumanity,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+6113,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking derogatory term,"['Screener', 'Analyst']","['escalate', 'hate']",1,10,20180,30,0.0,,0.8,hate,0.8,0,"{""hate"": 0.8, ""escalate"": 0.2}"
+8757,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,disgust vomit,['Screener'],['hate'],0,5,9680,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+4818,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+2760,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,criminal,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+7050,qwen2.5:7b,hatemoderate,graph_mv,hate,hate,1,0,0,0,0,0,better worse than,['Screener'],['hate'],0,5,9855,15,0.0,,1.0,hate,1.0,0,"{""hate"": 1.0}"
+27053,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+17476,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking character trait,['Screener'],['hate'],0,5,9565,17,0.0,,0.4,hate,0.4,1,"{""hate"": 0.4, ""escalate"": 0.2, ""not_hate"": 0.4}"
+14520,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,better worse than,['Screener'],['not_hate'],0,5,9570,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+22529,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,spread virus,['Screener'],['not_hate'],0,5,9585,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+10389,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,deviating norm,['Screener'],['not_hate'],0,5,9685,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+29667,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9620,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+9323,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking education,['Screener'],['hate'],0,5,9610,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+2017,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,certain objects,['Screener'],['hate'],0,5,9755,15,0.0,,0.8,hate,0.8,1,"{""escalate"": 0.2, ""hate"": 0.8}"
+14518,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29835,45,0.0,,,hate,0.4,1,"{""hate"": 0.4, ""escalate"": 0.6}"
+29498,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,political exclusion,['Screener'],['not_hate'],0,5,9725,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+11505,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,bacteria,['Screener'],['not_hate'],0,5,9595,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+6989,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,criminal,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'not_hate']",2,15,29690,48,0.0,,0.6,not_hate,0.6,0,"{""escalate"": 0.4, ""not_hate"": 0.6}"
+9411,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking education,['Screener'],['not_hate'],0,5,9650,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+22502,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,spread virus,['Screener'],['not_hate'],0,5,9775,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+10546,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,explicit exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29955,45,0.0,,,,,,"{""escalate"": 1.0}"
+12516,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+3964,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,deny existence,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+19370,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+21359,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+14480,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29910,45,0.0,,,hate,0.2,1,"{""escalate"": 0.8, ""hate"": 0.2}"
+29376,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,economic exclusion,['Screener'],['not_hate'],0,5,9640,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+9415,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking education,['Screener'],['hate'],0,5,9585,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+29160,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29093,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+12482,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29139,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+12513,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29840,45,0.0,,0.6,hate,0.6,1,"{""hate"": 0.6, ""escalate"": 0.4}"
+29119,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+6092,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9610,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+1041,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9635,15,0.0,,0.6,hate,0.6,1,"{""escalate"": 0.4, ""hate"": 0.6}"
+17433,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking character trait,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+2044,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,certain objects,['Screener'],['not_hate'],0,5,9600,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+27052,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9600,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+2987,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9715,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29491,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,political exclusion,['Screener'],['not_hate'],0,5,9555,18,0.0,,0.6,not_hate,0.6,0,"{""escalate"": 0.4, ""not_hate"": 0.6}"
+14425,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,better worse than,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29780,45,0.0,,,hate,0.4,1,"{""escalate"": 0.6, ""hate"": 0.4}"
+2030,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,certain objects,['Screener'],['hate'],0,5,10110,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+3889,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,deny existence,['Screener'],['not_hate'],0,5,9830,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+8352,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29300,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,economic exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29845,45,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29325,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,economic exclusion,['Screener'],['hate'],0,5,9645,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+2970,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+4921,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['not_hate'],0,5,9545,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+27940,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt self admission intolerance,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+11482,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29740,45,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+27945,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt self admission intolerance,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+24784,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,sexual predator,['Screener'],['not_hate'],0,5,9565,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+8408,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29032,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,change sexual,['Screener'],['not_hate'],0,5,9675,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+12430,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,attacking appearance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29760,45,0.0,,,hate,0.4,1,"{""escalate"": 0.6, ""hate"": 0.4}"
+11508,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,bacteria,['Screener'],['not_hate'],0,5,9580,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+13494,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,segregation,['Screener'],['hate'],0,5,9745,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+5006,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise hate,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+18379,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,social exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29750,44,0.0,,0.6,hate,0.6,1,"{""escalate"": 0.4, ""hate"": 0.6}"
+6027,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,harmful stereotype,['Screener'],['hate'],0,5,9600,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+3980,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,deny existence,['Screener'],['not_hate'],0,5,9610,19,0.0,,0.8,not_hate,0.8,0,"{""not_hate"": 0.8, ""hate"": 0.2}"
+24875,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9830,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+7276,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,dehumanization animal,['Screener'],['not_hate'],0,5,9605,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+25998,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse genitalia,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29510,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,political exclusion,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+9419,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attacking education,['Screener'],['not_hate'],0,5,9595,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+25774,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,insects,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29635,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,filth,['Screener'],['not_hate'],0,5,9615,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+29103,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9610,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+18455,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,social exclusion,['Screener'],['hate'],0,5,9605,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+1055,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+26012,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse genitalia,['Screener'],['hate'],0,5,9570,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+11545,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,bacteria,['Screener'],['not_hate'],0,5,9600,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+12457,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9595,16,0.0,,0.8,hate,0.8,1,"{""not_hate"": 0.2, ""hate"": 0.8}"
+5008,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise hate,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+21381,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+11566,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,bacteria,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,31905,45,0.0,,,hate,0.2,1,"{""escalate"": 0.8, ""hate"": 0.2}"
+15407,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,feces,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+28003,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt self admission intolerance,['Screener'],['hate'],0,5,9610,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+22526,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,spread virus,['Screener'],['not_hate'],0,5,9565,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+29615,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9540,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+10407,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,deviating norm,['Screener'],['not_hate'],0,5,9630,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+28032,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,contempt self admission intolerance,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19650,32,0.0,,0.4,not_hate,0.4,0,"{""not_hate"": 0.4, ""escalate"": 0.4, ""hate"": 0.2}"
+6001,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,harmful stereotype,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,30260,45,0.0,,,,,,"{""escalate"": 1.0}"
+18429,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,social exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29705,45,0.0,,,hate,0.2,1,"{""escalate"": 0.8, ""hate"": 0.2}"
+12426,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9580,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+19399,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+15414,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,feces,['Screener'],['hate'],0,5,9560,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+22508,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,spread virus,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+19444,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9600,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+22305,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise dislike,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+11497,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,bacteria,['Screener'],['not_hate'],0,5,9595,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+24807,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,sexual predator,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'not_hate']",2,15,29760,47,0.0,,0.4,not_hate,0.4,0,"{""not_hate"": 0.4, ""hate"": 0.4, ""escalate"": 0.2}"
+25783,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,insects,['Screener'],['hate'],0,5,9625,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+2067,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,certain objects,['Screener'],['hate'],0,5,9830,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+19372,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+26009,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse genitalia,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+15465,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,feces,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29107,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+4871,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29492,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,political exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29655,47,0.0,,,not_hate,0.4,0,"{""escalate"": 0.4, ""not_hate"": 0.4, ""hate"": 0.2}"
+29141,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+22343,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,contempt despise dislike,['Screener'],['not_hate'],0,5,9585,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+9311,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking education,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+15410,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,feces,['Screener'],['not_hate'],0,5,9550,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+8429,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,curse sexual,"['Screener', 'Analyst']","['escalate', 'not_hate']",1,10,19230,35,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+25862,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,insects,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29835,46,0.0,,,not_hate,0.2,0,"{""not_hate"": 0.2, ""escalate"": 0.8}"
+29689,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,filth,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+12434,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+1001,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking hygiene,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+5018,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise hate,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+26061,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,curse genitalia,['Screener'],['not_hate'],0,5,9635,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+11576,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9600,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29166,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9625,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+17423,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking character trait,['Screener'],['hate'],0,5,9645,15,0.0,,0.6,hate,0.6,1,"{""hate"": 0.6, ""escalate"": 0.4}"
+2927,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse profane,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+21374,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9635,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+29484,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,political exclusion,['Screener'],['hate'],0,5,9590,15,0.0,,0.6,hate,0.6,1,"{""escalate"": 0.4, ""hate"": 0.6}"
+28037,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt self admission intolerance,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,30810,45,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+19429,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust repulsion,['Screener'],['hate'],0,5,9645,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+26944,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+7068,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,criminal,['Screener'],['hate'],0,5,9595,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+2066,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,certain objects,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29700,45,0.0,,,,,,"{""escalate"": 1.0}"
+1987,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,certain objects,['Screener'],['not_hate'],0,5,10120,18,0.0,,0.6,not_hate,0.6,0,"{""escalate"": 0.4, ""not_hate"": 0.6}"
+23723,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9605,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+19402,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,disgust repulsion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29715,46,0.0,,,,,,"{""escalate"": 1.0}"
+29163,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9575,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+18409,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,social exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29805,45,0.0,,,,,,"{""escalate"": 1.0}"
+29148,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9590,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+3985,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,deny existence,['Screener'],['hate'],0,5,9605,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+8204,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+22687,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust vomit,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+28039,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,contempt self admission intolerance,['Screener'],['not_hate'],0,5,9630,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+29191,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,violent speech,['Screener'],['hate'],0,5,9620,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+11475,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,bacteria,['Screener'],['not_hate'],0,5,9555,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+5081,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise hate,['Screener'],['hate'],0,5,9615,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+23624,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+21362,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9565,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+12490,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking appearance,['Screener'],['hate'],0,5,9730,15,0.0,,0.6,hate,0.6,1,"{""hate"": 0.6, ""escalate"": 0.4}"
+28932,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,change sexual,['Screener'],['not_hate'],0,5,9680,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+2063,qwen2.5:7b,hatemoderate,graph_mv,escalate,not_hate,,1,0,0,0,0,certain objects,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,15,29685,45,0.0,,,,,,"{""escalate"": 1.0}"
+21365,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,hatecrime victim,['Screener'],['hate'],0,5,9550,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+27068,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt shouldnt exist,"['Screener', 'Analyst']","['escalate', 'hate']",1,10,19200,31,0.0,,0.6,hate,0.6,1,"{""hate"": 0.6, ""escalate"": 0.2, ""not_hate"": 0.2}"
+4893,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9595,15,0.0,,0.8,hate,0.8,1,"{""hate"": 0.8, ""escalate"": 0.2}"
+18369,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,social exclusion,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,15,29735,45,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+22665,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,disgust vomit,['Screener'],['hate'],0,5,9815,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+4863,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+8372,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,curse sexual,['Screener'],['hate'],0,5,9560,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+24829,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,sexual predator,['Screener'],['hate'],0,5,9885,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+16471,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,subhumanity,['Screener'],['hate'],0,5,10365,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+8143,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,5,9585,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+11476,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,bacteria,['Screener'],['hate'],0,5,9555,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+23729,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,attack concept associated protected characteristics,['Screener'],['not_hate'],0,5,9575,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"
+22353,qwen2.5:7b,hatemoderate,graph_mv,hate,not_hate,0,0,0,0,0,0,contempt despise dislike,['Screener'],['hate'],0,5,9545,15,0.0,,1.0,hate,1.0,1,"{""hate"": 1.0}"
+115,qwen2.5:7b,hatemoderate,graph_mv,not_hate,not_hate,1,0,0,0,0,0,disease,['Screener'],['not_hate'],0,5,9680,20,0.0,,1.0,not_hate,1.0,0,"{""not_hate"": 1.0}"

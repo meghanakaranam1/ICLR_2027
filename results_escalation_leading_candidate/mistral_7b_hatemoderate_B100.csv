@@ -1,0 +1,50 @@
+input_id,ground_truth,final_label,leading_candidate,leading_estimate,leading_wrong,arm_estimates_json
+454,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+481,hate,parse_failed,,,,
+497,hate,parse_failed,,,,
+719,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+1851,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+2509,hate,parse_failed,,,,
+3721,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+3757,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+4193,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+4618,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+4663,hate,parse_failed,,,,
+4683,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+4820,hate,escalate,hate,0.038461538461538464,False,"{""hate"": 0.038461538461538464, ""not_hate"": 0.0, ""escalate"": 1.0}"
+4924,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+6012,hate,parse_failed,,,,
+6145,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+6147,hate,escalate,hate,0.23529411764705882,False,"{""hate"": 0.23529411764705882, ""not_hate"": 0.0, ""escalate"": 0.6666666666666666}"
+7111,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+7252,hate,hate,hate,0.9696969696969697,False,"{""hate"": 0.9696969696969697, ""not_hate"": 0.0, ""escalate"": 0.09090909090909091}"
+7522,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+8197,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+9109,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+9723,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+10941,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+11735,hate,parse_failed,,,,
+11822,hate,escalate,hate,0.0,False,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+1029,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+2990,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+3000,not_hate,parse_failed,,,,
+4859,not_hate,escalate,hate,0.8529411764705882,True,"{""hate"": 0.8529411764705882, ""not_hate"": 0.0, ""escalate"": 0.30303030303030304}"
+7003,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+7041,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+8339,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+8346,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+8399,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+9324,not_hate,parse_failed,,,,
+9332,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+9364,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+10343,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+11484,not_hate,parse_failed,,,,
+11490,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+11507,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+11552,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+12443,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+17387,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+22349,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+25978,not_hate,escalate,hate,0.0,True,"{""hate"": 0.0, ""not_hate"": 0.0, ""escalate"": 1.0}"
+29541,not_hate,escalate,hate,0.5294117647058824,True,"{""hate"": 0.5294117647058824, ""not_hate"": 0.0, ""escalate"": 0.45454545454545453}"
+29599,not_hate,escalate,hate,0.038461538461538464,True,"{""hate"": 0.038461538461538464, ""not_hate"": 0.0, ""escalate"": 1.0}"

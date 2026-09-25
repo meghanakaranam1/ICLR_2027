@@ -1,0 +1,5 @@
+timestamp,input_id,model,dataset,condition,node,raw_response,error
+2026-09-18T03:32:54.767180+00:00,9723,llama3.1:8b,hatemoderate,graph_ucb_B124,Adjudicator,"I'm just an AI, I don't have","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response=""I'm just an AI, I don't have"""
+2026-09-18T03:54:23.373755+00:00,2777,llama3.1:8b,hatemoderate,graph_ucb_B124,Adjudicator,escalars,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='escalars'"
+2026-09-21T17:32:57.065364+00:00,4224,llama3.1:8b,hatemoderate,graph_ucb_B124,Adjudicator,evaluate,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='evaluate'"
+2026-09-21T19:37:57.458288+00:00,10985,llama3.1:8b,hatemoderate,graph_ucb_B124,Adjudicator,escape,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='escape'"

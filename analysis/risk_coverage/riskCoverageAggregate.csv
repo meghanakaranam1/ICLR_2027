@@ -1,0 +1,6 @@
+method,budget,nPairs,meanCoverage,meanAccuracy,meanSelectiveRisk,note
+single_call,,5,0.6399999999999999,0.7078203324922461,0.292179667507754,"mean across the 5 model/dataset pairs, NOT pooled examples"
+majority_voting,,5,0.7905,0.7145516282133608,0.28544837178663923,"mean across the 5 model/dataset pairs, NOT pooled examples"
+successive_elimination,75,5,0.45599999999999996,0.7434480671826991,0.256551932817301,"mean across the 5 model/dataset pairs, NOT pooled examples"
+successive_elimination,100,5,0.5785,0.7381454350041985,0.2618545649958015,"mean across the 5 model/dataset pairs, NOT pooled examples"
+successive_elimination,124,5,0.625,0.7310337717621241,0.2689662282378759,"mean across the 5 model/dataset pairs, NOT pooled examples"

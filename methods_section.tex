@@ -1,0 +1,189 @@
+% ============================================================
+% Method section — self-contained, ICLR-format LaTeX.
+% Assumes \usepackage{amsmath,amssymb,amsthm,algorithm,algorithmic}
+% and standard theorem environments in the preamble:
+%   \newtheorem{theorem}{Theorem}
+%   \newtheorem{proposition}{Proposition}
+%   \newtheorem{lemma}{Lemma}
+%   \newtheorem{corollary}{Corollary}
+%   \newtheorem{remark}{Remark}
+% If these are already defined elsewhere in your preamble, delete
+% the block above to avoid "already defined" errors.
+%
+% Domain-agnostic by design: written against a generic node s with
+% action space A and input x, so it drops into the paper regardless
+% of which dataset(s) (HateModerate, others) end up in the final
+% empirical section. Swap in domain-specific grounding of A in
+% \subsection{Problem Setup} once that's settled.
+%
+% Everything below was checked against the actual implementation
+% (navigator_experiments/experiment.py, ucb_node()/call_llm()), not
+% just against the old paper's prose — see ICLR_2027/theory_draft_text.md
+% and the surrounding conversation for what changed and why.
+% ============================================================
+
+\section{Method}
+\label{sec:method}
+
+\subsection{Problem Setup}
+\label{sec:setup}
+
+We organize evaluation into a directed acyclic graph (DAG) $G = (\mathcal{S}, E)$ of agent nodes, each corresponding to a stage of review. Each node $s \in \mathcal{S}$ receives an input $x$ and returns a label from a shared action space $\mathcal{A}$, $|\mathcal{A}| = K$. A terminal label commits the input to an outcome; a designated \texttt{escalate} label passes $x$ to the next node in the chain, or to human review if $s$ is the final node. Let $p_s(c\,;x)$ denote the true probability that node $s$ returns label $c$ on input $x$ under repeated independent querying, $\hat p_s(c\,;x)$ its empirical estimate, $c^*(s,x) = \arg\max_c p_s(c\,;x)$ the best label, and $\Delta_s(x) = p_s(c^*;x) - \max_{c \neq c^*} p_s(c\,;x)$ the probability gap between the best and second-best label.
+
+\subsection{Adaptive Sampling via Successive Elimination}
+\label{sec:algorithm}
+
+Fixed-sample majority voting queries a node $n$ times regardless of how separable its labels are for a given input, wasting calls on easy inputs and under-sampling ambiguous ones. We instead adapt the number of queries to $\Delta_s(x)$ using a successive-elimination bandit procedure (Algorithm~\ref{alg:adaptive}).
+
+\begin{algorithm}[h]
+\caption{Adaptive Sampling for Node $s$, Input $x$}
+\label{alg:adaptive}
+\begin{algorithmic}[1]
+\REQUIRE Budget $B \in \mathbb{N}$, confidence $\delta \in (0,1)$
+\STATE $\mathcal{A}_{\text{act}} \leftarrow \mathcal{A}$; \quad $T_c \leftarrow 0 \ \forall c \in \mathcal{A}$
+\WHILE{$|\mathcal{A}_{\text{act}}| > 1$ \textbf{and} $\sum_c T_c < B$}
+    \FOR{each $c \in \mathcal{A}_{\text{act}}$}
+        \STATE Query node $s$ on $x$; observe label $\ell$; $\ \hat p_s(c) \leftarrow \frac{(\text{count of } \ell = c \text{ so far})}{T_c + 1}$; $\ T_c \leftarrow T_c + 1$
+    \ENDFOR
+    \STATE $w_c \leftarrow \sqrt{\dfrac{\ln(4KT_c^2/\delta)}{2T_c}}$ \quad for each $c \in \mathcal{A}_{\text{act}}$
+    \STATE $c_{\max} \leftarrow \arg\max_c \hat p_s(c)$
+    \STATE Remove $c$ from $\mathcal{A}_{\text{act}}$ if $\hat p_s(c_{\max}) - w_{c_{\max}} > \hat p_s(c) + w_c$
+\ENDWHILE
+\IF{$|\mathcal{A}_{\text{act}}| = 1$}
+    \STATE \textbf{return} surviving arm
+\ELSE
+    \STATE \textbf{return} \texttt{escalate}
+\ENDIF
+\end{algorithmic}
+\end{algorithm}
+
+\paragraph{What a pull means.} Line 4 re-issues node $s$'s fixed classification prompt on $x$ — the prompt does not vary by arm $c$ — and scores the draw against arm $c$: $T_c$ increments and $\hat p_s(c)$ updates using the outcome of that specific query. Each active arm is pulled via its own independent query every round, so a round with $|\mathcal{A}_{\text{act}}|$ active arms costs $|\mathcal{A}_{\text{act}}|$ model calls, not one; total calls per input can exceed the nominal budget $B$'s face value early in the routing, before elimination shrinks the active set. Because each arm's pulls are drawn independently of the others, per-arm concentration bounds (Section~\ref{sec:theory}) are the applicable tool for the confidence widths $w_c$ — there is no single shared draw across arms to exploit for a tighter simultaneous bound.
+
+\paragraph{Identify-or-escalate.} Standard successive elimination \citep{evendar2006} forces a label when the budget is exhausted before a single arm survives, returning $\arg\max_c \hat p_s(c)$ regardless of whether that arm is statistically distinguishable from its competitors. We instead return \texttt{escalate} whenever more than one arm survives at budget exhaustion. This is not merely a fallback-to-safety default: it changes the algorithm's output whenever the leading arm's margin has not cleared the elimination threshold. Concretely, suppose budget exhausts with two arms active, $\hat p_s(\texttt{safe}) = 0.55$ and $\hat p_s(\texttt{escalate}) = 0.45$, with confidence widths wide enough that $\hat p_s(\texttt{safe}) - w_{\texttt{safe}} \not> \hat p_s(\texttt{escalate}) + w_{\texttt{escalate}}$ — the elimination condition in line 6 is never triggered. Standard action elimination returns \texttt{safe}, the higher point estimate, despite the two arms being statistically indistinguishable at the achieved sample size. Our variant returns \texttt{escalate}. The two algorithms diverge precisely when budget exhausts with more than one arm active and neither dominant — the same regime that produces the degenerate low-budget behavior in our budget sweep (Results).
+
+This design choice is consistent with a broader pattern documented in the best-arm-identification literature: \citet{huang2026abstention} show that in a Bayesian fixed-budget setting, allowing even a small abstention rate induces a \emph{phase transition} in achievable error — from polynomial decay in the sampling budget with no abstention, to exponential decay once any positive abstention allowance is introduced, with the improvement concentrated on near-tied instances (their hardness parameter $\kappa_\nu$ is defined as the prior density of the top-two gap at zero). We do not claim their result transfers to our setting: their analysis is Bayesian (arm means drawn from a Gaussian prior across problem instances) with abstention governed by a population-level rate $\alpha$, whereas ours is frequentist (a fixed, unknown $\Delta_s(x)$ per input) with escalation governed by a fixed per-episode budget $B$. The connection is motivational, not a shared theorem: it offers a principled reason to expect identify-or-escalate's benefit to be disproportionate to its escalation rate, concentrated on exactly the near-tied cases our budget sweep shows are hardest to resolve, rather than treating escalation as an ad hoc safety patch.
+
+\subsection{Theoretical Guarantees}
+\label{sec:theory}
+
+\begin{lemma}[Good Event]
+\label{lem:good-event}
+Let $w(m) = \sqrt{\ln(4Km^2/\delta)/(2m)}$. Define
+$$
+\mathcal{G} := \left\{ \forall c \in \mathcal{A},\ \forall m \geq 1: \ |\hat p_s^{(m)}(c) - p_s(c;x)| \leq w(m) \right\}.
+$$
+Then $\mathbb{P}(\mathcal{G}) \geq 1 - \delta$.
+\end{lemma}
+
+\begin{proof}
+Fix $c \in \mathcal{A}$ and round $m$. Since each pull of arm $c$ is an i.i.d.\ Bernoulli draw with mean $p_s(c;x)$ (Section~\ref{sec:algorithm}), Hoeffding's inequality gives
+$$
+\mathbb{P}\!\left(|\hat p_s^{(m)}(c) - p_s(c;x)| > w(m)\right) \leq 2\exp\!\big(-2m\,w(m)^2\big) = 2\exp\!\big(-\ln(4Km^2/\delta)\big) = \frac{\delta}{2Km^2}.
+$$
+Union bound over $K$ arms and all $m \geq 1$, using $\sum_{m=1}^\infty 1/m^2 = \pi^2/6 < 2$:
+$$
+\mathbb{P}(\mathcal{G}^c) \ \leq\ K \cdot \frac{\delta}{2K} \cdot \frac{\pi^2}{6} \ <\ \delta.
+$$
+\end{proof}
+
+\begin{proposition}[Node-Level Correctness]
+\label{prop:correctness}
+Under $\mathcal{G}$, Algorithm~\ref{alg:adaptive} never eliminates $c^*(s,x)$.
+\end{proposition}
+
+\begin{proof}
+Suppose, for contradiction, that $c^*$ is eliminated at some round in favor of arm $c \neq c^*$ with common count $n$ (all active arms share the same count, since every active arm is pulled once per round). Elimination requires $\hat p_s(c) - w(n) > \hat p_s(c^*) + w(n)$, i.e.\ $\hat p_s(c) - \hat p_s(c^*) > 2w(n)$. Under $\mathcal{G}$,
+$$
+\hat p_s(c) - \hat p_s(c^*) \ \leq\ \big[p_s(c;x) + w(n)\big] - \big[p_s(c^*;x) - w(n)\big] \ =\ -\Delta_s(x) + 2w(n) \ <\ 2w(n),
+$$
+since $\Delta_s(x) > 0$ by uniqueness of $c^*$ — a contradiction. So $c^*$ is never eliminated; Algorithm~\ref{alg:adaptive} either returns $c^*$ or \texttt{escalate}, never a wrong label with confident certainty.
+\end{proof}
+
+\begin{theorem}[Sample Complexity]
+\label{thm:sample-complexity}
+Under $\mathcal{G}$, if every arm has been pulled
+$$
+n \ \geq\ n^*(\delta, \Delta_s(x)) \ :=\ \frac{16}{\Delta_s(x)^2}\left[\ln\!\left(\frac{4K}{\delta}\right) + 2\ln\!\left(\frac{8}{\Delta_s(x)^2}\right)\right]
+$$
+times, Algorithm~\ref{alg:adaptive} eliminates every arm $c \neq c^*$ and returns $c^*$.
+\end{theorem}
+
+\begin{proof}
+Elimination of every $c \neq c^*$ at common count $n$ requires $\hat p_s(c^*) - \hat p_s(c) > 2w(n)$ for each such $c$. Under $\mathcal{G}$,
+$$
+\hat p_s(c^*) - \hat p_s(c) \ \geq\ p_s(c^*;x) - p_s(c;x) - 2w(n) \ \geq\ \Delta_s(x) - 2w(n),
+$$
+so it suffices that $\Delta_s(x) - 2w(n) > 2w(n)$, i.e.\ $w(n) < \Delta_s(x)/4$, i.e.
+$$
+\ln\!\left(\frac{4Kn^2}{\delta}\right) \ <\ \frac{n\,\Delta_s(x)^2}{8}. \tag{$\star$}
+$$
+Let $v = n\Delta_s(x)^2/8$ and $B' = \ln(4K/\delta) + 2\ln(8/\Delta_s(x)^2)$, so $(\star)$ rewrites as $v - 2\ln v > B'$. For $v \geq 9$, $v - 2\ln v \geq v/2$ (the function $v/2 - 2\ln v$ has its minimum at $v=4$, where it equals $2 - 2\ln 4 \approx -0.77 < 0$, and is increasing thereafter, crossing zero between $v=8.5$ and $v=9$; one verifies $v/2 - 2\ln v \geq 0$ at $v = 9$ directly). Hence $v \geq 2B'$ suffices whenever $2B' \geq 9$, which holds for all $\Delta_s(x) \in (0,1]$ and $\delta \in (0, 0.5]$ — the standard operating range. Substituting $v = n\Delta_s(x)^2/8 = 2B'$ gives $n = 16B'/\Delta_s(x)^2$, the stated bound.
+\end{proof}
+
+\begin{remark}
+\label{rem:not-tight}
+Theorem~\ref{thm:sample-complexity} gives a sufficient, not necessarily tight, sample complexity — the constant absorbs a standard self-bounding argument (Lemma-style: solving $v \geq B' + 2\ln v$ via $v \geq 2B'$) rather than the tightest achievable rate. It is, however, the correct order of magnitude for the algorithm actually run: at $K{=}3$, $\delta{=}0.05$, $\Delta_s(x){=}0.5$ — representative of the empirical inflection point in Results — $n^* \approx 790$ pulls per arm. Empirical budgets in the range we evaluate ($B \in \{75,\dots,150\}$ total calls per node) fall well short of this per-arm requirement once more than one arm remains contested, which is consistent with, and offers a theoretical explanation for, the overlapping confidence intervals and non-significant paired tests observed at those budgets: the algorithm is operating below its proven-sufficient sample size, not because the underlying effect is absent, but because $n^*$ at realistic gap sizes is substantially larger than the budgets tested.
+
+The anytime-confidence-sequence technique underlying Lemma~\ref{lem:good-event} (a union bound over all rounds via $\sum_m 1/m^2 < 2$) is the same family of technique used in the fixed-confidence best-arm-identification literature to handle an unbounded stopping time \citep{jamieson2014lilucb}; \citet{jamieson2014lilucb}'s tight rate replaces our $\log(1/\Delta^2)$ term with $\log\log(1/\Delta^2)$, a strictly smaller quantity as $\Delta \to 0$. We do not claim that tighter rate here: their bound is proved for an adaptive, imbalanced pulling schedule with an explicit stopping-time constraint across arms, whereas Algorithm~\ref{alg:adaptive} pulls every active arm once per round (a different, round-robin schedule). Adapting their technique to a round-robin schedule would require re-deriving the stopping-time argument against our actual pulling rule rather than substituting their formula into ours; we leave this as a concrete, well-specified direction for tightening $n^*$ in future work rather than asserting it here without re-proof.
+\end{remark}
+
+\begin{remark}[Why not DKW]
+\label{rem:not-dkw}
+An alternative design could avoid the $\ln K$ union-bound term in Theorem~\ref{thm:sample-complexity} by using a single shared draw per round to update all $K$ arms' empirical estimates simultaneously (rather than $K$ independent per-arm queries), and bounding the resulting categorical estimation error with the Dvoretzky–Kiefer–Wolfowitz inequality, which controls all categories at once without a per-category union bound. We do not use this design: Algorithm~\ref{alg:adaptive} pulls each arm independently (Section~\ref{sec:algorithm}), so there is no shared draw for a DKW-style bound to exploit, and the per-arm Hoeffding argument above is the tool that actually matches the implementation. A shared-draw redesign is a concrete, quantifiable direction for reducing the sample complexity in future work (Limitations).
+\end{remark}
+
+\begin{proposition}[Per-Episode Reliability]
+\label{prop:per-episode}
+For any input $x$ and confidence $\delta$, Algorithm~\ref{alg:adaptive} run at node $s$ either (a) returns $c^*(s,x)$, or (b) escalates, with probability $\geq 1-\delta$ (Proposition~\ref{prop:correctness}), independently for each input.
+\end{proposition}
+
+This guarantee is per-episode and does not compound across inputs: each input induces its own label distribution $p_s(\cdot\,;x)$, and no state persists across episodes in Algorithm~\ref{alg:adaptive} as described. We accordingly do not claim that aggregate system error decreases as more inputs are processed, or that the system exhibits sublinear cumulative regret over a deployment horizon — only that each routing decision, taken on its own, carries the fixed-confidence guarantee above.
+
+\subsection{Cross-Episode Budget Learning}
+\label{sec:cross-episode}
+
+The guarantee above holds for a \emph{fixed} per-episode budget $B$, chosen without reference to deployment history. We now make explicit what can be learned across episodes without contradicting Proposition~\ref{prop:per-episode}: not the \emph{label} for a new input (each input's distribution $p_s(\cdot\,;x)$ is genuinely its own), but the \emph{budget} a typical input needs, estimated from the history of how many pulls past inputs actually required.
+
+\paragraph{Assumption (stationary input population).} Inputs $x_1, x_2, \dots$ arriving at node $s$ are drawn i.i.d.\ from a fixed but unknown population distribution $\mathcal{D}$. This is a new, explicit assumption — stated here because it is exactly the kind of persistent, shared structure across episodes that Proposition~\ref{prop:per-episode}'s regime lacks and that reviewers correctly noted is required for any cross-episode claim to hold.
+
+Under this assumption, $\Delta_s(X)$ for $X \sim \mathcal{D}$ is a random variable, and by Theorem~\ref{thm:sample-complexity}, so is the required per-arm pull count $N^*(X) := n^*(\delta, \Delta_s(X))$. Let $F_N$ denote its (unknown) CDF, and for a target coverage level $1-\gamma \in (0,1)$, let $q_{1-\gamma} := F_N^{-1}(1-\gamma)$: the smallest fixed budget such that a $(1-\gamma)$ fraction of the input population is, in principle, resolvable without hitting a budget cap.
+
+\begin{assumption}[Local regularity at the target quantile]
+\label{as:regularity}
+$F_N$ has a density $f_N$ with $f_N(q_{1-\gamma}) \geq c > 0$ in a neighborhood of $q_{1-\gamma}$. This is needed to convert a bound on CDF estimation error into a bound on quantile estimation error, and is a genuinely new assumption (not needed anywhere else in this paper) — it rules out the degenerate case where the difficulty distribution is flat exactly at the target coverage level.
+\end{assumption}
+
+\paragraph{Policies.} The \emph{oracle} policy knows $q_{1-\gamma}$ and uses $B_t = q_{1-\gamma}$ for every episode $t$ — unavailable in practice, since $\mathcal{D}$ is unknown. The \emph{adaptive} policy uses a fixed burn-in budget for an initial period, then for each subsequent episode $t$ sets $B_t = \hat q_{1-\gamma,t-1} + \varepsilon_{t-1}$, where $\hat q_{1-\gamma,t-1}$ is the empirical $(1-\gamma)$-quantile of the required-pull counts observed in episodes $1,\dots,t-1$ (directly readable from each episode's logged pull count — no new instrumentation needed) and $\varepsilon_{t-1}$ is the confidence margin defined below.
+
+\begin{theorem}[Quantile Estimation Across Episodes]
+\label{thm:quantile}
+Under the stationary-population assumption, for any $\delta' \in (0,1)$, with probability $\geq 1-\delta'$, simultaneously for all $t \geq 1$:
+$$
+|\hat F_t(y) - F_N(y)| \ \leq\ \sqrt{\frac{\ln(2/\delta')}{2t}} \quad \text{for all } y,
+$$
+where $\hat F_t$ is the empirical CDF of $N^*(x_1), \dots, N^*(x_t)$. Consequently, under Assumption~\ref{as:regularity},
+$$
+|\hat q_{1-\gamma,t} - q_{1-\gamma}| \ \leq\ \varepsilon_t \ :=\ \frac{1}{c}\sqrt{\frac{\ln(2/\delta')}{2t}}.
+$$
+\end{theorem}
+
+\begin{proof}
+The first bound is the classical DKW inequality \citep{dkw1956, massart1990} applied to $t$ i.i.d.\ real-valued samples $N^*(x_1), \dots, N^*(x_t)$ — unlike its earlier (rejected) use for per-input label estimation, this is DKW's native setting: one shared i.i.d.\ sample stream from a single fixed distribution, not $K$ independently-pulled arms. Simultaneity over $t$ follows from the same anytime/union-bound-over-rounds technique as Lemma~\ref{lem:good-event}, applied here to the number of episodes observed rather than the number of pulls within one episode. The quantile bound follows from inverting the CDF bound: for $y$ near $q_{1-\gamma}$, $|\hat F_t(y) - F_N(y)| \leq \varepsilon$ implies $F_N(y) \in [1-\gamma-\varepsilon, 1-\gamma+\varepsilon]$ whenever $\hat F_t(y) = 1-\gamma$; under $f_N(q_{1-\gamma}) \geq c$, this constrains $y$ to within $\varepsilon/c$ of $q_{1-\gamma}$ by the mean value theorem applied to $F_N$.
+\end{proof}
+
+\begin{theorem}[Cumulative Excess Sample Cost]
+\label{thm:excess-cost}
+Under the stationary-population and local-regularity assumptions, with probability $\geq 1-\delta'$, the adaptive policy's cumulative excess sample cost relative to the oracle over $T$ episodes,
+$$
+\sum_{t=1}^{T} \big(B_t - q_{1-\gamma}\big),
+$$
+is $O(\sqrt{T})$ — sublinear in $T$, so the \emph{average} excess cost per episode vanishes as $T \to \infty$.
+\end{theorem}
+
+\begin{proof}
+By Theorem~\ref{thm:quantile}, $B_t - q_{1-\gamma} \leq 2\varepsilon_{t-1} = O(1/\sqrt{t})$ for each $t$ (one $\varepsilon_{t-1}$ from the estimation error itself, one from the added margin, both order $1/\sqrt{t}$). Summing, $\sum_{t=1}^T O(1/\sqrt{t}) \leq 1 + \int_1^T t^{-1/2}\,dt = O(\sqrt{T})$.
+\end{proof}
+
+\begin{remark}
+This is deliberately a weaker rate than the $O(\log T)$ claimed (incorrectly) in an earlier draft of this line of work. It is, however, actually true: something concrete persists and improves across episodes — the estimate $\hat q_{1-\gamma,t}$ — under one explicitly stated new assumption (a stationary input population), rather than an implicit one the algorithm never satisfied. It answers the specific reviewer concern that motivated this section (\emph{"unless there is persistent learning across ... episodes ... there is no learning phase"}) without altering Proposition~\ref{prop:per-episode}: label-level correctness for each input remains a per-episode guarantee; what improves across episodes is the \emph{efficiency} of the budget allocated to reach that guarantee, not the guarantee itself.
+\end{remark}

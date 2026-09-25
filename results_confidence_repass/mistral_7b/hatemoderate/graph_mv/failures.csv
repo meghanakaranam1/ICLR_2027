@@ -1,0 +1,3 @@
+timestamp,input_id,model,dataset,condition,node,raw_response,error
+2026-09-20T15:14:28.121103+00:00,6145,mistral:7b,hatemoderate,graph_mv,Adjudicator,"Based on the policy provided, the text ""its","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='Based on the policy provided, the text ""its'"
+2026-09-20T15:20:53.884728+00:00,11735,mistral:7b,hatemoderate,graph_mv,Adjudicator,"Based on the policy provided, the text ""i","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='Based on the policy provided, the text ""i'"

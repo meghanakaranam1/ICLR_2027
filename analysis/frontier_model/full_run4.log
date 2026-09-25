@@ -1,0 +1,182 @@
+HateModerate: 7702 examples loaded
+  hate=4796, not_hate=2906
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+=== DRY-RUN / MANIFEST VALIDATION ===
+
+claude_haiku_4_5 (claude-haiku-4.5):
+  hatemoderate: 400 target examples
+  aegis: 400 target examples
+  budgets: [75, 100, 124]
+  expected work units (examples x methods): 4000
+  already completed: 1490
+  remaining: 2510
+
+llama_70b (llama3-3-70b-instruct):
+  hatemoderate: 400 target examples
+  aegis: 400 target examples
+  budgets: [75, 100, 124]
+  expected work units (examples x methods): 4000
+  already completed: 2207
+  remaining: 1793
+
+=== Pilot: claude_haiku_4_5 (claude-haiku-4.5), concurrency=4 ===
+
+=== Pilot: llama_70b (llama3-3-70b-instruct), concurrency=1 ===
+  1490 units already completed for this model, skipping those.
+  2207 units already completed for this model, skipping those.
+HateModerate: 7702 examples loadedHateModerate: 7702 examples loaded
+
+  hate=4796, not_hate=2906  hate=4796, not_hate=2906
+
+
+============================================================
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+  1793 units remaining to run for this model.
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+  2510 units remaining to run for this model.
+llama_70b | aegis | graph_mv | 46/400 complete
+llama_70b | aegis | graph_mv | 50/400 complete
+claude_haiku_4_5 | hatemoderate | single_call | 290/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 292/400 complete
+llama_70b | aegis | graph_mv | 54/400 complete
+claude_haiku_4_5 | hatemoderate | B=100 | 287/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 301/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 305/400 complete
+llama_70b | aegis | graph_mv | 58/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 309/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 314/400 complete
+llama_70b | aegis | graph_mv | 62/400 complete
+claude_haiku_4_5 | hatemoderate | B=75 | 300/400 complete
+claude_haiku_4_5 | hatemoderate | B=75 | 304/400 complete
+claude_haiku_4_5 | hatemoderate | single_call | 330/400 complete
+llama_70b | aegis | graph_mv | 66/400 complete
+claude_haiku_4_5 | hatemoderate | B=75 | 311/400 complete
+  [retry 1] HTTPSConnectionPool(host='api.ai.jh.edu', port=443): Read timed out. (read timeout=90) -- waiting 5s
+claude_haiku_4_5 | hatemoderate | B=100 | 321/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 328/400 complete
+llama_70b | aegis | graph_mv | 70/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 332/400 complete
+claude_haiku_4_5 | hatemoderate | single_call | 351/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 352/400 complete
+claude_haiku_4_5 | hatemoderate | graph_mv | 356/400 complete
+llama_70b | aegis | graph_mv | 74/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 348/400 complete
+llama_70b | aegis | graph_mv | 78/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 352/400 complete
+  [retry 1] HTTPSConnectionPool(host='api.ai.jh.edu', port=443): Read timed out. (read timeout=90) -- waiting 5s
+claude_haiku_4_5 | hatemoderate | graph_mv | 368/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 360/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 364/400 complete
+claude_haiku_4_5 | hatemoderate | B=100 | 364/400 complete
+llama_70b | aegis | graph_mv | 82/400 complete
+claude_haiku_4_5 | hatemoderate | B=100 | 368/400 complete
+claude_haiku_4_5 | hatemoderate | single_call | 395/400 complete
+llama_70b | aegis | graph_mv | 86/400 complete
+claude_haiku_4_5 | hatemoderate | B=124 | 377/400 complete
+llama_70b | aegis | graph_mv | 90/400 complete
+claude_haiku_4_5 | aegis | B=75 | 24/400 complete
+claude_haiku_4_5 | aegis | B=124 | 27/400 complete
+claude_haiku_4_5 | aegis | B=124 | 31/400 complete
+claude_haiku_4_5 | aegis | B=124 | 35/400 complete
+claude_haiku_4_5 | aegis | B=124 | 39/400 complete
+claude_haiku_4_5 | aegis | single_call | 46/400 complete
+llama_70b | aegis | graph_mv | 94/400 complete
+claude_haiku_4_5 | aegis | B=124 | 47/400 complete
+claude_haiku_4_5 | aegis | B=124 | 51/400 complete
+llama_70b | aegis | graph_mv | 98/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 58/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 62/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 66/400 complete
+llama_70b | aegis | graph_mv | 102/400 complete
+claude_haiku_4_5 | aegis | B=75 | 68/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 74/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 78/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 82/400 complete
+llama_70b | aegis | graph_mv | 106/400 complete
+claude_haiku_4_5 | aegis | B=75 | 83/400 complete
+llama_70b | aegis | graph_mv | 110/400 complete
+claude_haiku_4_5 | aegis | B=124 | 87/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 95/400 complete
+claude_haiku_4_5 | aegis | B=100 | 95/400 complete
+llama_70b | aegis | graph_mv | 114/400 complete
+claude_haiku_4_5 | aegis | B=100 | 98/400 complete
+claude_haiku_4_5 | aegis | B=124 | 103/400 complete
+claude_haiku_4_5 | aegis | B=124 | 107/400 complete
+llama_70b | aegis | graph_mv | 118/400 complete
+claude_haiku_4_5 | aegis | single_call | 117/400 complete
+claude_haiku_4_5 | aegis | single_call | 121/400 complete
+claude_haiku_4_5 | aegis | single_call | 125/400 complete
+llama_70b | aegis | graph_mv | 122/400 complete
+claude_haiku_4_5 | aegis | single_call | 129/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 131/400 complete
+llama_70b | aegis | graph_mv | 126/400 complete
+claude_haiku_4_5 | aegis | B=124 | 130/400 complete
+claude_haiku_4_5 | aegis | B=100 | 134/400 complete
+llama_70b | aegis | graph_mv | 130/400 complete
+claude_haiku_4_5 | aegis | B=124 | 138/400 complete
+claude_haiku_4_5 | aegis | B=124 | 143/400 complete
+claude_haiku_4_5 | aegis | B=124 | 147/400 complete
+llama_70b | aegis | graph_mv | 134/400 complete
+claude_haiku_4_5 | aegis | single_call | 158/400 complete
+claude_haiku_4_5 | aegis | B=75 | 152/400 complete
+claude_haiku_4_5 | aegis | single_call | 166/400 complete
+llama_70b | aegis | graph_mv | 138/400 complete
+claude_haiku_4_5 | aegis | single_call | 170/400 complete
+claude_haiku_4_5 | aegis | B=124 | 167/400 complete
+llama_70b | aegis | graph_mv | 142/400 complete
+claude_haiku_4_5 | aegis | B=75 | 168/400 complete
+claude_haiku_4_5 | aegis | B=124 | 174/400 complete
+claude_haiku_4_5 | aegis | B=75 | 175/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 188/400 complete
+llama_70b | aegis | graph_mv | 146/400 complete
+claude_haiku_4_5 | aegis | single_call | 198/400 complete
+claude_haiku_4_5 | aegis | single_call | 202/400 complete
+llama_70b | aegis | graph_mv | 150/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 201/400 complete
+claude_haiku_4_5 | aegis | B=100 | 195/400 complete
+claude_haiku_4_5 | aegis | B=75 | 198/400 complete
+llama_70b | aegis | graph_mv | 154/400 complete
+claude_haiku_4_5 | aegis | B=100 | 203/400 complete
+claude_haiku_4_5 | aegis | B=124 | 209/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 221/400 complete
+llama_70b | aegis | graph_mv | 158/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 225/400 complete
+claude_haiku_4_5 | aegis | single_call | 236/400 complete
+claude_haiku_4_5 | aegis | single_call | 255/400 complete
+llama_70b | aegis | single_call | 172/400 complete
+claude_haiku_4_5 | aegis | single_call | 275/400 complete
+claude_haiku_4_5 | aegis | single_call | 295/400 complete
+claude_haiku_4_5 | aegis | graph_mv | 230/400 complete (final, this run)
+claude_haiku_4_5 | aegis | B=100 | 218/400 complete (final, this run)
+claude_haiku_4_5 | aegis | B=124 | 220/400 complete (final, this run)
+claude_haiku_4_5 | aegis | B=75 | 217/400 complete (final, this run)
+claude_haiku_4_5 | aegis | single_call | 297/400 complete (final, this run)
+claude_haiku_4_5 | hatemoderate | graph_mv | 395/400 complete (final, this run)
+claude_haiku_4_5 | hatemoderate | B=100 | 374/400 complete (final, this run)
+claude_haiku_4_5 | hatemoderate | B=124 | 378/400 complete (final, this run)
+claude_haiku_4_5 | hatemoderate | B=75 | 363/400 complete (final, this run)
+claude_haiku_4_5 | hatemoderate | single_call | 400/400 complete (final, this run)
+  claude_haiku_4_5: 1602 succeeded, 908 errored this run.
+llama_70b | aegis | single_call | 192/400 complete
+/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-jj8esmt8'}
+  warnings.warn(

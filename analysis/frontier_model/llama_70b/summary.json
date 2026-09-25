@@ -1,0 +1,6 @@
+{
+  "safeModelName": "llama_70b",
+  "modelId": "llama3-3-70b-instruct",
+  "totalUnitsExpectedForPilot": 200,
+  "unitsCompleted": 200
+}

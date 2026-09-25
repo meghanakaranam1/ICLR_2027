@@ -1,0 +1,352 @@
+[
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "31",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "34",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "56",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "58",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "59",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "60",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "61",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "62",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "69",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "hatemoderate",
+    "exampleId": "70",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "f4a5451090a2417f90b87c1c7bb80c28",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "28dc24dc14064a63868efcb293fa456a",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "d3033cf359214a1886a532cd03184c47",
+    "groundTruth": "safe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "ae5bef96181e45c490ea69b585f11785",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "3a9677ac22e4407eae60505f30b8e491",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "3e26487c2fac48cb9297f043e3b0238d",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "9f86cb3c1da64377969a07841778f879",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "8f8820e45c6342b89e729863d3abb82e",
+    "groundTruth": "safe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "9903932788b24da5bf8082f69d8a88d5",
+    "groundTruth": "safe"
+  },
+  {
+    "modelId": "llama3.1:8b",
+    "modelDir": "llama3.1_8b",
+    "dataset": "aegis",
+    "exampleId": "321867b472cd4876b5db48f9b6f515ff",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "31",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "34",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "56",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "58",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "59",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "60",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "61",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "62",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "69",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "70",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "f4a5451090a2417f90b87c1c7bb80c28",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "28dc24dc14064a63868efcb293fa456a",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "d3033cf359214a1886a532cd03184c47",
+    "groundTruth": "safe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "ae5bef96181e45c490ea69b585f11785",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "3a9677ac22e4407eae60505f30b8e491",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "3e26487c2fac48cb9297f043e3b0238d",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "9f86cb3c1da64377969a07841778f879",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "8f8820e45c6342b89e729863d3abb82e",
+    "groundTruth": "safe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "9903932788b24da5bf8082f69d8a88d5",
+    "groundTruth": "safe"
+  },
+  {
+    "modelId": "qwen2.5:7b",
+    "modelDir": "qwen2.5_7b",
+    "dataset": "aegis",
+    "exampleId": "321867b472cd4876b5db48f9b6f515ff",
+    "groundTruth": "unsafe"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "31",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "34",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "56",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "58",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "59",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "60",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "61",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "62",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "69",
+    "groundTruth": "hate"
+  },
+  {
+    "modelId": "mistral:7b",
+    "modelDir": "mistral_7b",
+    "dataset": "hatemoderate",
+    "exampleId": "70",
+    "groundTruth": "hate"
+  }
+]

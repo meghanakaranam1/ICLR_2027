@@ -1,0 +1,6 @@
+{
+  "safeModelName": "claude_haiku_4_5",
+  "modelId": "claude-haiku-4.5",
+  "totalUnitsExpectedForPilot": 4000,
+  "unitsCompleted": 3092
+}

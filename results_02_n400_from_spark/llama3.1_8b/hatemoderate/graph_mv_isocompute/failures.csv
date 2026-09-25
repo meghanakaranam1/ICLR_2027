@@ -1,0 +1,4 @@
+timestamp,input_id,model,dataset,condition,node,raw_response,error
+2026-09-18T06:21:28.027218+00:00,7111,llama3.1:8b,hatemoderate,graph_mv_isocompute,Adjudicator,"This text can be classified as ""hate""","no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='This text can be classified as ""hate""'"
+2026-09-18T06:54:34.953485+00:00,9324,llama3.1:8b,hatemoderate,graph_mv_isocompute,Adjudicator,escape,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='escape'"
+2026-09-21T23:01:03.079651+00:00,6631,llama3.1:8b,hatemoderate,graph_mv_isocompute,Screener,escape,"no valid label in model response: valid=['escalate', 'hate', 'not_hate'] raw_response='escape'"

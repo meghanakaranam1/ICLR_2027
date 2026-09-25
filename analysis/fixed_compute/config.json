@@ -1,0 +1,40 @@
+{
+  "pairs": [
+    [
+      "llama3.1:8b",
+      "llama3.1_8b",
+      "hatemoderate"
+    ],
+    [
+      "llama3.1:8b",
+      "llama3.1_8b",
+      "aegis"
+    ],
+    [
+      "qwen2.5:7b",
+      "qwen2.5_7b",
+      "hatemoderate"
+    ],
+    [
+      "qwen2.5:7b",
+      "qwen2.5_7b",
+      "aegis"
+    ],
+    [
+      "mistral:7b",
+      "mistral_7b",
+      "hatemoderate"
+    ]
+  ],
+  "budgets": [
+    3,
+    5,
+    10
+  ],
+  "methods": [
+    "MV",
+    "SE"
+  ],
+  "temperature": 0.7,
+  "ucbDelta": 0.05
+}

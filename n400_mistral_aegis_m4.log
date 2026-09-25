@@ -1,0 +1,480 @@
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+======================================================================
+mistral:7b/aegis  (extending 100 -> 400)
+======================================================================
+mistral:7b/aegis: 100 old + 300 new = 400 total
+
+--- mistral:7b/aegis / graph_mv --- (elapsed in this pair so far: 0.0 min)
+    already complete, skipping (400/400 rows present)
+
+--- mistral:7b/aegis / graph_ucb_B75 --- (elapsed in this pair so far: 0.0 min)
+
+  [mistral:7b/aegis/graph_ucb_B75] 100 done, 300 to run
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [mistral:7b/aegis/graph_ucb_B75] 105/400
+  [mistral:7b/aegis/graph_ucb_B75] 110/400
+  [mistral:7b/aegis/graph_ucb_B75] 115/400
+  [mistral:7b/aegis/graph_ucb_B75] 120/400
+  [mistral:7b/aegis/graph_ucb_B75] 125/400
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-xlcntjvq'}
+  warnings.warn(
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+======================================================================
+mistral:7b/aegis  (extending 100 -> 400)
+======================================================================
+mistral:7b/aegis: 100 old + 300 new = 400 total
+
+--- mistral:7b/aegis / graph_mv --- (elapsed in this pair so far: 0.0 min)
+    already complete, skipping (400/400 rows present)
+
+--- mistral:7b/aegis / graph_ucb_B75 --- (elapsed in this pair so far: 0.0 min)
+
+  [mistral:7b/aegis/graph_ucb_B75] 127 done, 273 to run
+/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-sex60zhz'}
+  warnings.warn(
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+======================================================================
+mistral:7b/aegis  (extending 100 -> 400)
+======================================================================
+mistral:7b/aegis: 100 old + 300 new = 400 total
+
+--- mistral:7b/aegis / graph_mv --- (elapsed in this pair so far: 0.0 min)
+    already complete, skipping (400/400 rows present)
+
+--- mistral:7b/aegis / graph_ucb_B75 --- (elapsed in this pair so far: 0.0 min)
+
+  [mistral:7b/aegis/graph_ucb_B75] 127 done, 273 to run
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [mistral:7b/aegis/graph_ucb_B75] 10238ac342444a55a1362a57e3d3713b: 3 consecutive LabelParseErrors -- marking parse_failed, not retrying again
+  [mistral:7b/aegis/graph_ucb_B75] 130/400
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [mistral:7b/aegis/graph_ucb_B75] 135/400
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 2] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 10s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 2] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 10s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 2] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 10s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 2] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 10s
+  [retry 2] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 10s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 2] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 10s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-pb__knv_'}
+  warnings.warn(
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+======================================================================
+mistral:7b/aegis  (extending 100 -> 400)
+======================================================================
+mistral:7b/aegis: 100 old + 300 new = 400 total
+
+--- mistral:7b/aegis / graph_mv --- (elapsed in this pair so far: 0.0 min)
+    already complete, skipping (400/400 rows present)
+
+--- mistral:7b/aegis / graph_ucb_B75 --- (elapsed in this pair so far: 0.0 min)
+
+  [mistral:7b/aegis/graph_ucb_B75] 137 done, 263 to run
+  [mistral:7b/aegis/graph_ucb_B75] 140/400
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-mgp3arph'}
+  warnings.warn(
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+======================================================================
+mistral:7b/aegis  (extending 100 -> 400)
+======================================================================
+mistral:7b/aegis: 100 old + 300 new = 400 total
+
+--- mistral:7b/aegis / graph_mv --- (elapsed in this pair so far: 0.0 min)
+    already complete, skipping (400/400 rows present)
+
+--- mistral:7b/aegis / graph_ucb_B75 --- (elapsed in this pair so far: 0.0 min)
+
+  [mistral:7b/aegis/graph_ucb_B75] 140 done, 260 to run
+  [mistral:7b/aegis/graph_ucb_B75] 145/400
+  [mistral:7b/aegis/graph_ucb_B75] 150/400
+  [mistral:7b/aegis/graph_ucb_B75] 155/400
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-zjdqei4b'}
+  warnings.warn(
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+============================================================
+Loading: nvidia/Aegis-AI-Content-Safety-Dataset-2.0 (split=test, unfiltered)
+============================================================
+Using the latest cached version of the dataset since nvidia/Aegis-AI-Content-Safety-Dataset-2.0 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /Users/meghanakarnam/.cache/huggingface/datasets/nvidia___aegis-ai-content-safety-dataset-2.0/default/0.0.0/d86bb8bedff51d25ac834ab7838f1cc61acb7a2c (last modified on Sun Mar 22 13:01:02 2026).
+prompt_label null-rate check (test): 0/1964 rows (0.0%) have empty prompt_label
+Loaded 1964 examples (safe=905, unsafe=1059)
+
+======================================================================
+mistral:7b/aegis  (extending 100 -> 400)
+======================================================================
+mistral:7b/aegis: 100 old + 300 new = 400 total
+
+--- mistral:7b/aegis / graph_mv --- (elapsed in this pair so far: 0.0 min)
+    already complete, skipping (400/400 rows present)
+
+--- mistral:7b/aegis / graph_ucb_B75 --- (elapsed in this pair so far: 0.0 min)
+
+  [mistral:7b/aegis/graph_ucb_B75] 155 done, 245 to run
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s  [retry 1] HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15) — waiting 5s
+
+Traceback (most recent call last):
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_extension_n400.py", line 261, in <module>
+    run_pair(model, dataset_name, iso_n_mv, new_n, m.RESULTS_DIR_NAME)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_extension_n400.py", line 183, in run_pair
+    m.run_condition(model, dataset_name, cond_name, fn, combined, sanity=False)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_all_datasets.py", line 1471, in run_condition
+    result = future.result()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.9_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_extension_n400.py", line 181, in fn
+    return m.run_graph_ucb(model, text, b, node_systems, node_arms, sanity=False)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_all_datasets.py", line 1253, in run_graph_ucb
+    r = ucb_node(model, node, text, budget, node_systems, node_arms, sanity, context=context)
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_all_datasets.py", line 1192, in ucb_node
+    label = _parse_label(resp, set(arms))
+  File "/Users/meghanakarnam/Desktop/MLHC/ICLR_2027/run_all_datasets.py", line 836, in _parse_label
+    raise LabelParseError(
+    ...<2 lines>...
+    )
+run_all_datasets.LabelParseError: no valid label in model response: valid=['escalate', 'safe', 'unsafe'] raw_response='Based on the provided policy and the empirical probability'

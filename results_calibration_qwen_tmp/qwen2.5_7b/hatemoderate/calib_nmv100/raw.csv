@@ -1,0 +1,13 @@
+input_id,model,dataset,condition,final_label,ground_truth,correct,escalated_to_human,self_refused,prompt_injected,injection_detected,parse_failed,category,nodes_used,node_labels,escalation_count,total_pulls,total_tokens_input,total_tokens_output,cost_usd,arm_elimination_trace
+2509,qwen2.5:7b,hatemoderate,calib_nmv100,escalate,hate,,1,0,0,0,0,subhumanity,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,300,667500,932,0.0,
+441,qwen2.5:7b,hatemoderate,calib_nmv100,hate,hate,1,0,0,0,0,0,violent speech,['Screener'],['hate'],0,100,189200,300,0.0,
+6117,qwen2.5:7b,hatemoderate,calib_nmv100,hate,hate,1,0,0,0,0,0,attacking derogatory term,['Screener'],['hate'],0,100,191800,300,0.0,
+5162,qwen2.5:7b,hatemoderate,calib_nmv100,hate,hate,1,0,0,0,0,0,attacking education,['Screener'],['hate'],0,100,190200,300,0.0,
+4820,qwen2.5:7b,hatemoderate,calib_nmv100,hate,hate,1,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,100,190200,300,0.0,
+3335,qwen2.5:7b,hatemoderate,calib_nmv100,escalate,hate,,1,0,0,0,0,deny existence,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'escalate']",3,300,672700,906,0.0,
+4866,qwen2.5:7b,hatemoderate,calib_nmv100,hate,not_hate,0,0,0,0,0,0,attacking intellectual capability,['Screener'],['hate'],0,100,189000,300,0.0,
+29498,qwen2.5:7b,hatemoderate,calib_nmv100,not_hate,not_hate,1,0,0,0,0,0,political exclusion,['Screener'],['not_hate'],0,100,192500,400,0.0,
+24880,qwen2.5:7b,hatemoderate,calib_nmv100,not_hate,not_hate,1,0,0,0,0,0,sexual predator,['Screener'],['not_hate'],0,100,192100,400,0.0,
+3963,qwen2.5:7b,hatemoderate,calib_nmv100,not_hate,not_hate,1,0,0,0,0,0,deny existence,['Screener'],['not_hate'],0,100,189600,396,0.0,
+27049,qwen2.5:7b,hatemoderate,calib_nmv100,hate,not_hate,0,0,0,0,0,0,contempt shouldnt exist,['Screener'],['hate'],0,100,189500,300,0.0,
+20428,qwen2.5:7b,hatemoderate,calib_nmv100,hate,not_hate,0,0,0,0,0,0,less than adequate,"['Screener', 'Analyst', 'Adjudicator']","['escalate', 'escalate', 'hate']",2,300,668400,904,0.0,
