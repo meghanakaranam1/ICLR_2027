@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "1001",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "10046",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "1005",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "1007",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10093",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10274",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10288",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "1029",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "10302",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10331",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10343",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "10380",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10389",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "10407",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1041",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "10533",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10540",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10546",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1055",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "10573",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10802",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10855",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10861",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10933",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10941",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "10985",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11117",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11122",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11123",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11200",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11443",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11450",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11475",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11476",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11482",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11484",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11490",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11492",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11497",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11505",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11507",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11508",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11545",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11552",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11566",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11576",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "11735",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11757",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11819",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11821",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11822",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11836",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "11843",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "12005",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "12023",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "12080",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "12105",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "12155",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "124",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "12426",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12430",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12434",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12443",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12457",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12482",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12490",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12513",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "12516",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "13494",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "13502",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "13516",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "14425",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "14462",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "14480",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "14518",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "14520",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "14735",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "15407",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "15410",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "15414",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1546",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "15465",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1598",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "16076",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "16085",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "16239",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "16266",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "16455",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "16471",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1721",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "17387",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "17423",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "17433",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "17467",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "17476",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1770",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "18369",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "18379",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "18388",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "18393",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "18409",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "18429",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "18455",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1851",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "1855",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "19370",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "19372",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "19399",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "19402",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "19411",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "19429",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "19444",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "1987",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2017",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2030",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2039",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2044",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2063",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2066",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2067",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2116",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "21359",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "21362",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "21365",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "21374",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "21381",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22303",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22305",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22343",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22349",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22353",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2245",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "22502",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22508",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22526",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22529",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2256",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "22665",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "22687",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2270",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2281",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2286",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "23624",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "23723",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "23729",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "23916",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2419",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2421",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2461",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2471",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "24784",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "24807",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "24829",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "24875",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2509",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2529",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "25774",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "25783",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "25862",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "25877",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "25978",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "25998",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "26009",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "26012",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "26061",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "26944",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "27052",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "27053",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "27068",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2760",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2777",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "2792",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "27940",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "27945",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "28003",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "28024",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "28032",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "28037",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "28039",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "28932",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29032",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29093",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29103",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29107",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29118",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29119",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29121",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29139",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29140",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29141",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29148",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29160",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29163",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29166",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29179",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29191",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2927",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29300",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29325",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29347",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2935",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29376",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29461",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29484",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29491",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29492",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29498",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29510",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29536",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29541",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29599",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29615",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29635",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29667",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29680",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29689",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "29697",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2970",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2977",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2987",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "2990",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3000",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3335",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3377",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3640",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3704",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3721",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3751",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3757",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3782",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3784",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3793",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3797",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3864",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3889",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3964",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3976",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3980",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3985",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "3988",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "3990",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4011",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4021",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4046",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4127",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4140",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4156",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4170",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4193",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4224",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4228",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4291",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4336",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4372",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4523",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4525",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4618",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4637",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4662",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4663",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4683",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4818",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4820",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4824",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4857",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4859",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "4863",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "4866",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4871",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "4893",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "4921",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "4924",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "4965",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5006",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "5008",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "5018",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "5081",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "5157",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5162",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5165",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5457",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5459",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5464",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5484",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5507",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5764",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5776",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "5790",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6001",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "6012",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6027",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "6050",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6092",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "6113",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6117",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6125",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6126",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6145",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6147",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6350",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6384",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6438",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6443",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6483",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6493",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6605",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6631",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6633",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6658",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6663",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6936",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6976",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6986",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "6989",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "6999",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7000",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "7003",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "7041",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "7050",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7068",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "7083",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7099",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7111",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7129",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7215",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7219",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7229",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7234",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7252",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7259",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7276",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "7328",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7408",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7509",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7518",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7522",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7529",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "7953",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8143",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8163",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8174",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8179",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8189",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8197",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8204",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8339",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8346",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8352",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8360",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8372",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8399",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8408",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8411",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8429",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "8454",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8503",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8508",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8533",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8757",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "8796",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "906",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9109",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9132",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9136",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9143",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9188",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9311",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9323",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9324",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9332",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9364",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9389",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9411",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9415",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9419",
+    "groundTruth": "not_hate"
+  },
+  {
+    "id": "9476",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9617",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9659",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9689",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9723",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9788",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9915",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9938",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9939",
+    "groundTruth": "hate"
+  },
+  {
+    "id": "9954",
+    "groundTruth": "hate"
+  }
+]
